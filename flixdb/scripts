@@ -1,0 +1,6 @@
+Movie Schema
+Genres - 
+Insert into movie.genre_t(genre) 
+(SELECT distinct genres FROM movie.title_t where genres is not null);  
+  
+    
